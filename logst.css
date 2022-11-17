@@ -1,0 +1,142 @@
+#abc{
+    width:100%;
+    height:100px;
+
+  }
+  nav{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #0005;
+    line-height: 60px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+  }
+  nav ul li:hover{
+    background: #00ff0087;
+  }
+  nav ul li a{
+    margin-inline-start: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+  }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(img/yoga-flow.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* align items center vertically and horizontally  */
+.container{
+  display: flex;
+  justify-content: left;
+  margin-left: 70px;
+  align-items: top !important;
+  height: 100vh;
+}
+.form{
+  width: 750px;
+  height: 550px;
+  background-color: rgba(41, 39, 39, 0.3);
+  box-shadow: 0 5px 30px black;
+}
+.btn button {
+  padding: 3px;
+  margin: 30px 0px 40px 30px;
+  border-style: none;
+  background-color: transparent;
+  color: beige;
+  font-size: 18px;
+  font-weight: 550;
+}
+.formGroup{
+  display: flex;
+  justify-content: center;
+}
+.formGroup input{
+  border: none;
+  width: 80%;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+}
+input:focus {
+  outline: none !important;
+  border-bottom: 2px solid rgb(91, 243, 131);
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+::placeholder {
+  color: white;
+}
+.checkBox{
+  display: flex;
+  justify-content: center;
+  margin: 16px!important;
+}
+ 
+#checkbox{
+  margin-right: 10px;
+  height: 15px;
+  width: 15px;
+}
+.text{
+  color: rgb(199, 197, 197);
+  font-size: 13px;
+}
+.btn2{
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: rgb(10, 136, 43);
+  border-style: none;
+  color: white;
+  font-weight: 600;
+}
+.btn2:hover{
+  background-color: rgba(10, 136, 43, 0.5);
+}
+.btn button:hover{
+  border-bottom: 2px solid rgb(91, 243, 131);
+}
+ 
+/* hide signup form */
+.login{
+  display: none;
+}
+ 
+/* Login form code */
+.login{
+  margin-top: 40px;
+}
+.login .checkBox{
+  margin-top: 30px !important;
+}
+
+
+.copyright{
+  text-align: center;
+  color: white;
+  background: #2a2a2a;
+  padding: 10px;
+} 
